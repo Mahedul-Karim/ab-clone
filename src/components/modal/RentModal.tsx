@@ -27,7 +27,7 @@ enum STEPS {
 
 type Props = {
   rentOpen: boolean;
-  setRentOpen: () => void;
+  setRentOpen: any;
 };
 
 function RentModal({ rentOpen, setRentOpen }: Props) {
