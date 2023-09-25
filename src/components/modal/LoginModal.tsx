@@ -16,7 +16,7 @@ import Input from "@/UI/form/Input";
 
 type Props = {
   signinOpen: boolean;
-  setSigninOpen: () => void;
+  setSigninOpen: any;
 };
 
 function LoginModal({ signinOpen, setSigninOpen }: Props) {
