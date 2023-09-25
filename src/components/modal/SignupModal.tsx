@@ -15,7 +15,7 @@ import Input from "@/UI/form/Input";
 
 type Props={
     modalOpen:boolean;
-    setModalOpen:()=>void;
+    setModalOpen:any;
 }
 
 function SignupModal({modalOpen,setModalOpen}:Props) {
