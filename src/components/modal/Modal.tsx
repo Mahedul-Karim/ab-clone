@@ -5,7 +5,7 @@ import { IoMdClose } from "react-icons/io";
 
 type Props = {
   isOpen?: boolean;
-  onClose: () => void;
+  onClose: any;
   onSubmit: () => void;
   title?: string;
   body?: React.ReactElement;
