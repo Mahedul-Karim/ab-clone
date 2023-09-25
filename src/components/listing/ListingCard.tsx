@@ -19,7 +19,7 @@ type Props = {
   disabled?: boolean;
   actionLabel?: string;
   actionId?: string;
-  currentUser?: SafeUser | null;
+  currentUser?: any;
 };
 
 function ListingCard({
