@@ -13,7 +13,7 @@ import { SafeReservation, SafeUser } from "../../../types";
 
 interface ReservationsClientProps {
   reservations: SafeReservation[],
-  currentUser?: SafeUser | null,
+  currentUser?: any,
 }
 
 const ReservationsClient: React.FC<ReservationsClientProps> = ({

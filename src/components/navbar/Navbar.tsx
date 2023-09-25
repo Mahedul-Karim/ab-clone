@@ -9,7 +9,7 @@ import Search from "./Search";
 import UserMenu from "./UserMenu";
 
 type Props={
-  user?:SafeUser | null
+  user?:any
 }
 
 export default function Navbar({user}:Props) {

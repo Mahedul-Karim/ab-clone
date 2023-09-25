@@ -12,8 +12,8 @@ import ListingCard from "@/components/listing/ListingCard";
 import { SafeListing, SafeUser } from "../../../types";
 
 interface PropertiesClientProps {
-  listings: SafeListing[],
-  currentUser?: SafeUser | null,
+  listings: any[],
+  currentUser?: any,
 }
 
 const PropertiesClient: React.FC<PropertiesClientProps> = ({
