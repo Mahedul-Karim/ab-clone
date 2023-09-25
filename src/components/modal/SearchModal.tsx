@@ -28,7 +28,7 @@ enum STEPS {
 
 type Props={
     searchOpen:boolean;
-    setSearchOpen:()=>void;
+    setSearchOpen:any;
 }
 
 const SearchModal = ({searchOpen,setSearchOpen}:Props) => {
