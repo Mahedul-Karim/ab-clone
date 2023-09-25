@@ -42,7 +42,7 @@ function SignupModal({modalOpen,setModalOpen}:Props) {
       toast.success('Registered')
 
     }catch(err){
-      toast.error(err)
+      toast.error('Something went wrong)
     }finally{
       setIsLoading(false);
     }
